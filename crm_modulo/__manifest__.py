@@ -1,5 +1,5 @@
 {
-    'name': 'crm.lead',
+    'name': 'crm_modulo',
     'author': 'Assetel',
     'website': 'www.assetel.com',
     'summary' : 'Coded by: Guillermo Ruiz Alvarez',
@@ -9,8 +9,8 @@
     ],
     'data': [
     # VIEWS
+    
     'views/crm_lead.xml',
-    ,
     
     ],
     'installable': True,
