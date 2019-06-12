@@ -6,7 +6,7 @@ from odoo import models, api, fields, exceptions
 class PurchaseOrder(models.Model):
 	_inherit = 'crm.lead'
 
-	Agente_de_compra=fields.float(string=Agente de compra)
+	agente_de_compra=fields.Char(string="Agente de compra")
 
 
 
