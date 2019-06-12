@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+  <!-- VISTA ARBOL PARA IMPORTANCIA DE CLIENTE -->
+
+  <record id="importancia_cliente_tree" model="ir.ui.view">
+    <field name="name">Importancia de cliente</field> 
+    <field name="model">importancia.cliente</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="nivel_de_importancia"/>
+        <field name="descripcion"/>
+      </tree>
+    </field> 
+  </record>
+
+
+  <!-- VISTA FORMULARIO PARA IMPORTANCIA DE CLIENTE -->
+
+  <record id="importancia_cliente_form" model="ir.ui.view"> 
+    <field name="name">Importancia de cliente</field> 
+    <field name="model">importancia.cliente</field>
+    <field name="arch" type="xml">
+      <form string="Importancia de cliente">
+          <sheet>
+              <group>
+                  <group>
+                    <field name="nivel_de_importancia" required="1"/>
+                  </group>
+                  <group>
+                    <field name="descripcion"/>
+                  </group>
+              </group>
+          </sheet>
+      </form>
+    </field> 
+  </record>
+</odoo>

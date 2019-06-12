@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <!-- MENU PARA AGRAGAR IMPORTANCIA DE CLIENTES -->
+
+  <record id="importancia_cliente_vistas" model="ir.actions.act_window">
+      <field name="name">Importancia de cliente</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">importancia.cliente</field>
+      <field name="view_mode">tree,form</field>
+      <field name="view_type">form</field>
+      <field name="help" type="html">
+        <p class="o_view_nocontent_smiling_face">
+          Crea un nuevo registro
+        </p>
+      </field>
+  </record>
+  
+  <menuitem 
+    id="importancia_cliente_menu" 
+    name="Importancia de cliente"
+    action="importancia_cliente_vistas"
+    parent="contacts.res_partner_menu_config"
+    sequence="4"/>
+
+</odoo>
