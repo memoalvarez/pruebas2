@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-  <record id="purchase_order_form_inherit" model="ir.ui.view">
-    <field name="name">purchase.order.form.inherit</field>
-    <field name="model">purchase.order</field>
-    <field name="inherit_id" ref="purchase.purchase_order_form"/>
+  <record id="crm_lead_form_inherit" model="ir.ui.view">
+    <field name="name">crm.lead.form.inherit</field>
+    <field name="model">crm.lead</field>
+    <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
     <field name="arch" type="xml">
 
-      <field name="date_order"  position="after">
-      	<field name="data_sheet" widget="many2many_binary"/>
+      <field name="Ingreso_de_ingenieria"  position="after">
+      	<field name="Agente_de_compra"/>
       </field>
 
       <field name="notes" position="attributes">
