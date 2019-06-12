@@ -8,4 +8,4 @@ class PurchaseOrder(models.Model):
 
 	ficha_tecnica=fields.Many2many("ir.attachment", string="Ficha técnica")
 
-	usuario_requisicion = fields.Many2one("res.users", string="Usuario requisicion")
+	usuario_requisicion = fields.Many2one("res.partner", string="Usuario requisicion")
