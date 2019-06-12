@@ -11,9 +11,7 @@
       	<field name="Agente_de_compra"/>
       </field>
 
-      <field name="notes" position="attributes">
-        <attribute name="placeholder">Penalizaciones</attribute>
-      </field>
+  
 
     </field>
   </record>
