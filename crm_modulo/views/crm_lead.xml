@@ -7,8 +7,8 @@
     <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
     <field name="arch" type="xml">
 
-      <field name="Ingreso_de_ingenieria"  position="after">
-      	<field name="Agente_de_compra"/>
+      <field name="ingreso_de_ingenieria"  position="after">
+      	<field name="agente_de_compra"/>
       </field>
 
   
