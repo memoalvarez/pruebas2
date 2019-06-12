@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="crm_lead_form_inherit" model="ir.ui.view">
+    <field name="name">crm.lead.form.inherit</field>
+    <field name="model">crm.lead</field>
+    <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
+    <field name="arch" type="xml">
+
+      <field name="Ingreso_de_ingenieria"  position="after">
+      	<field name="Agente_de_compras"/>
+      </field>
+
+      <field name="notes" position="attributes">
+        <attribute name="placeholder">Penalizaciones</attribute>
+      </field>
+
+    </field>
+  </record>
+
+</odoo>
