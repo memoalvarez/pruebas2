@@ -9,9 +9,8 @@
     ],
     'data': [
     # VIEWS
-    'views/purchase_order.xml',
-    'views/monto_maximo.xml',
-    'views/purchase_order_menu.xml',
+    'views/crm_lead.xml',
+    ,
     
     ],
     'installable': True,
