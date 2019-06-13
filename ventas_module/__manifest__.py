@@ -9,7 +9,7 @@
     ],
     'data': [
     # VIEWS
-    'views/sales_module.xml',
+    'views/sale_module.xml',
     
     ],
     'installable': True,
