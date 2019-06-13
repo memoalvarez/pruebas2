@@ -7,7 +7,7 @@ class PurchaseOrder(models.Model):
 	_inherit = 'sale_module'
 
 	agente_de_venta=fields.Chair(string="Agente de venta")
-    importe_de_venta=fields.Float(string="Importe de venta")
+	importe_de_venta=fields.Float(string="Importe de venta")
 	
 
 	
