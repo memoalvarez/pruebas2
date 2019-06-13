@@ -21,6 +21,6 @@
     name="Canal de distribución"
     action="vistas_canal_de_distribucion"
     parent="contacts.res_partner_menu_config"
-    sequence="5"/>
+    sequence="4"/>
 
 </odoo>
