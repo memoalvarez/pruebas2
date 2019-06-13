@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="sales_module_form_inherit" model="ir.ui.view">
+    <field name="name">sales.module.form.inherit</field>
+    <field name="model">sales_module</field>
+    <field name="inherit_id" ref="sale.view_order_form"/>
+    <field name="arch" type="xml">
+
+      <field name="payment_term_id"  position="after">
+      	<field name="agente_de_ventas"/>
+        <field name="importe_de_venta"
+      </field>
+
+      
+    </field>
+  </record>
+
+</odoo>
