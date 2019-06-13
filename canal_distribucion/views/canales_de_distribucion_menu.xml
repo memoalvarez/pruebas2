@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <!-- MENU PARA AGRAGAR CANALES DE DISTRIBUCION -->
+
+  <record id="vistas_canal_de_distribucion" model="ir.actions.act_window">
+      <field name="name">Canal de distribución</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">canal.de.distribucion</field>
+      <field name="view_mode">tree,form</field>
+      <field name="view_type">form</field>
+      <field name="help" type="html">
+        <p class="o_view_nocontent_smiling_face">
+          Crea un nuevo canal de distribución
+        </p>
+      </field>
+  </record>
+  
+  <menuitem 
+    id="canal_de_distribucion_menu" 
+    name="Canal de distribución"
+    action="vistas_canal_de_distribucion"
+    parent="contacts.res_partner_menu_config"
+    sequence="5"/>
+
+</odoo>

@@ -10,8 +10,8 @@
     'data': [
     # VIEWS
     #'views/purchase_order.xml',
-    #'views/monto_maximo.xml',
-    #'views/purchase_order_menu.xml',
+    'views/canal_distribucion.xml',
+    'views/canales_de_distribucion_menu.xml',
     
     ],
     'installable': True,

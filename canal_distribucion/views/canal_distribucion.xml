@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+  <!-- VISTA ARBOL PARA MONTOS MAXIMOS -->
+
+  <record id="canal_de_distribucion_tree" model="ir.ui.view">
+    <field name="name">Canal de distribución</field> 
+    <field name="model">canal.de.distribucion</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="name"/>
+        <field name="categoria_padre"/>
+
+      </tree>
+    </field> 
+  </record>
+
+
+  <!-- VISTA FORMULARIO PARA MONTOS MAXIMOS -->
+
+  <record id="canal_de_distribucion_form" model="ir.ui.view"> 
+    <field name="name">Canal de distribución</field> 
+    <field name="model">canal.de.distribucion</field>
+    <field name="arch" type="xml">
+      <form string="Canal de distribución">
+          <sheet>
+              <group>
+                  <group>
+                    <field name="name" required="1"/>
+                  </group>
+                  <group>
+                    <field name="categoria_padre" required="1"/>
+                  
+                  </group>
+              </group>
+          </sheet>
+      </form>
+    </field> 
+  </record>
+
+</odoo>

@@ -10,4 +10,4 @@ class Canaldedistribucion(models.Model):
 
 
 	name=fields.Char(string="Canal de distribución")
-	descripcion=fields.Many2one("canal.de.distribucion", string="Categoria padre")
+	categoria_padre=fields.Many2one("canal.de.distribucion", string="Categoria padre")
