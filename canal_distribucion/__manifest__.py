@@ -9,7 +9,7 @@
     ],
     'data': [
     # VIEWS
-    #'views/purchase_order.xml',
+    'views/canales_de_distribucion.xml',
     'views/canal_distribucion.xml',
     'views/canales_de_distribucion_menu.xml',
     

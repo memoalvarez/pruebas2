@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="canal_de_distribucion_form_inherit" model="ir.ui.view">
+    <field name="name">canal.de.distribucion.form.inherit</field>
+    <field name="model">canal.de.distribucion</field>
+    <field name="inherit_id" ref="canal_distribucion.canal_de_distribucion_form"/>
+    <field name="arch" type="xml">
+
+      <field name="lang"  position="after">
+      	<field name="canal_de_distribucion"/>
+      </field>
+
+     
+
+    </field>
+  </record>
+
+</odoo>
