@@ -9,7 +9,7 @@ class ImportanciaCliente(models.Model):
 	_description = 'modelo para identificar la importancia del cliente'
 
 
-	nivel_de_importancia=fields.Char(string="Nivel de importancia")
+	name=fields.Char(string="Nivel de importancia")
 	descripcion=fields.Char(string="Descripción")
 
 
