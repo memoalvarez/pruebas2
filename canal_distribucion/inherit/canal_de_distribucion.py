@@ -4,7 +4,7 @@ from odoo import models, api, fields, exceptions
 
 
 class ContactModule(models.Model):
-	_inherit = 'canal.de.distribucion'
+	_inherit = 'res.partner'
 
 	canal_de_distribucion=fields.Many2one("name", string="Canal de distribución")
 	
