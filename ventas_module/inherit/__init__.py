@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 
-from . import sale.module
+from . import sale_module
 
