@@ -3,7 +3,7 @@
 
   <record id="sale_module_form_inherit" model="ir.ui.view">
     <field name="name">sale.module.form.inherit</field>
-    <field name="model">sale_module</field>
+    <field name="model">sale.order</field>
     <field name="inherit_id" ref="sale.view_order_form"/>
     <field name="arch" type="xml">
 
