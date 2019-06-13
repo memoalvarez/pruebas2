@@ -3,7 +3,7 @@
 from odoo import models, api, fields, exceptions
 
 
-class MontoMaximo(models.Model):
+class ImportanciaCliente(models.Model):
 
 	_name = "importancia.cliente"
 	_description = 'modelo para identificar la importancia del cliente'
