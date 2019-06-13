@@ -1,2 +1,3 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
 seguridad_importancia_de_cliente,seguridad.importancia_de_cliente,Contactos_modulo.model_importancia_cliente,base.group_user,1,1,1,1
+seguridad_canal_distribucion,Seguridad_canal_distribucion,canal_distribucion.model_canal_de_distribucion,base.group_user,1,1,1,1
