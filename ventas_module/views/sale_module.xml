@@ -8,7 +8,7 @@
     <field name="arch" type="xml">
 
       <field name="payment_term_id"  position="after">
-      	<field name="agente_de_ventas"/>
+      	<field name="agente_de_venta"/>
         <field name="importe_de_venta"/>
       </field>
 
