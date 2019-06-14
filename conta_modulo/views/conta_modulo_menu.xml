@@ -3,7 +3,7 @@
 
   <!-- MENU PARA AGRAGAR CANALES DE DISTRIBUCION -->
 
-  <!--<record id="vistas_facturas_usd" model="ir.actions.act_window">
+  <record id="vistas_facturas_usd" model="ir.actions.act_window">
       <field name="name">Facturas USD</field>
       <field name="type">ir.actions.act_window</field>
       <field name="res_model">contabilidad.modulo</field>
@@ -20,7 +20,7 @@
     id="conta_modulo_menu" 
     name="Facturas USB"
     action="vistas_facturas_usd"
-    parent="purchase.menu_purchase_config"
+    parent="account.menu_finance_receivables"
     sequence="2"/>
 
-</odoo>-->
+</odoo>
