@@ -11,7 +11,7 @@
     # VIEWS
     #'views/purchase_order.xml',
     #'views/monto_maximo.xml',
-    #'views/purchase_order_menu.xml',
+    'views/conta_modulo_menu.xml',
     
     ],
     'installable': True,
