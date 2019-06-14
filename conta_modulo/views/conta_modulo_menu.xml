@@ -21,6 +21,6 @@
     name="Facturas USD"
     action="vistas_facturas_usd"
     parent="account.menu_finance_receivables"
-    sequence="4"/>
+    sequence="3"/>
 
 </odoo>
