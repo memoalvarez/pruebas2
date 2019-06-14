@@ -4,7 +4,7 @@
 
   <!-- VISTA ARBOL PARA MONTOS MAXIMOS -->
 
-  <record id="monto_maximo_tree" model="ir.ui.view">
+  <!--<record id="facturas_USD_tree" model="ir.ui.view">
     <field name="name">Montos máximos</field> 
     <field name="model">monto.maximo</field>
     <field name="arch" type="xml">
@@ -14,12 +14,12 @@
         <field name="monto_maximo"/>
       </tree>
     </field> 
-  </record>
+  </record>-->
 
 
   <!-- VISTA FORMULARIO PARA MONTOS MAXIMOS -->
 
-  <record id="monto_maximo_form" model="ir.ui.view"> 
+  <!--<record id="monto_maximo_form" model="ir.ui.view"> 
     <field name="name">Montos máximos</field> 
     <field name="model">monto.maximo</field>
     <field name="arch" type="xml">
@@ -37,6 +37,6 @@
           </sheet>
       </form>
     </field> 
-  </record>
+  </record>-->
 
 </odoo>
