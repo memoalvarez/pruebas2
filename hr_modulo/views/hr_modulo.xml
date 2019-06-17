@@ -7,7 +7,7 @@
     <field name="inherit_id" ref="hr.view_employee_form"/>
     <field name="arch" type="xml">
 
-    <xpath expr:"//notebook" position="inside">
+    <xpath expr="//notebook" position="inside">
       <page string="Documentos personales">
         <sheet>
               <group>
