@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+  <!-- VISTA ARBOL PARA MONTOS MAXIMOS -->
+
+  <record id="monto_maximo_tree" model="ir.ui.view">
+    <field name="name">Montos máximos</field> 
+    <field name="model">monto.maximo</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="user_id"/>
+        <field name="currency_id"/>
+        <field name="monto_maximo"/>
+      </tree>
+    </field> 
+  </record>
+
+
+  <!-- VISTA FORMULARIO PARA MONTOS MAXIMOS -->
+
+  <record id="monto_maximo_form" model="ir.ui.view"> 
+    <field name="name">Montos máximos</field> 
+    <field name="model">monto.maximo</field>
+    <field name="arch" type="xml">
+      <form string="Montos máximos">
+          <sheet>
+              <group>
+                  <group>
+                    <field name="user_id" required="1"/>
+                  </group>
+                  <group>
+                    <field name="currency_id" required="1"/>
+                    <field name="monto_maximo" required="1"/>
+                  </group>
+              </group>
+          </sheet>
+      </form>
+    </field> 
+  </record>
+
+</odoo>

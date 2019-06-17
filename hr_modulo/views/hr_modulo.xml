@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="hr_modulo_form_inherit" model="ir.ui.view">
+    <field name="name">hr:modulo.form.inherit</field>
+    <field name="model">hr.modulo</field>
+    <field name="inherit_id" ref="hr.view_employee_form"/>
+    <field name="arch" type="xml">
+
+    <xpath expr:"//notebook" position="inside">
+      <page string="Documentos personales">
+        <sheet>
+              <group>
+                  <group>
+                    <field name="id_card_copy" required="0"/>
+                    <field name="acta_de_nacimiento" required="0"/>
+                    <field name="numero_de_seguro_social" required="0"/>
+                    <field name="driving_license" required="0"/>
+                    <field name="rfc" required="0"/>
+                    <field name="curp" required="0"/>
+                    <field name="carta_de_no_antecedentes_penales" required="0"/>
+                  </group>
+                  <group>
+                    <field name="comprobante_de_domicilio" required="0"/>
+                    <field name="comprobante_de_estudios" required="0"/>
+                    <field name="certificaciones" required="0"/>
+                    <field name="hoja_de_retencion_para_credito_infonavit" required="0"/>
+                    <field name="hoja_de_retencion_para_credito_fonacot" required="0"/>
+                    <field name="carta_de_recomendacion" required="0"/>
+                  </group>
+              </group>
+        </sheet>
+      </page>
+    </xpath>
+    </field>
+  </record>
+
+</odoo>
