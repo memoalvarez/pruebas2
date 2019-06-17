@@ -3,7 +3,7 @@
 
   <record id="hr_modulo_form_inherit" model="ir.ui.view">
     <field name="name">hr:modulo.form.inherit</field>
-    <field name="model">hr.modulo</field>
+    <field name="model">hr.employee</field>
     <field name="inherit_id" ref="hr.view_employee_form"/>
     <field name="arch" type="xml">
 
