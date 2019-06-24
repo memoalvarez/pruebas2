@@ -9,7 +9,7 @@
     ],
     'data': [
     # VIEWS
-    'views/hr_modulo.xml',
+    #'views/hr_modulo.xml',
     #'views/monto_maximo.xml',
     #'views/purchase_order_menu.xml',
     
