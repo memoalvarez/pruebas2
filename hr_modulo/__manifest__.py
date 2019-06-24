@@ -1,5 +1,5 @@
 {
-    'name': 'hr_module',
+    'name': 'hr_modulo',
     'author': 'Assetel',
     'website': 'www.assetel.com',
     'summary' : 'Coded by: Guillermo Ruiz Alvarez',
